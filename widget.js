@@ -73,15 +73,15 @@
 
         rezlabel = "Rezervasyon";
 
-        checkin = "Giriş Tarihi";
+        checkin = "GiriÅŸ Tarihi";
 
-        checkout = "Çıkış Tarihi";
+        checkout = "Ã‡Ä±kÄ±ÅŸ Tarihi";
 
-        adult = "Yetişkin";
+        adult = "YetiÅŸkin";
 
-        child = "Çocuk";
+        child = "Ã‡ocuk";
 
-        age = "Yaş";
+        age = "YaÅŸ";
 
         childok = "Uygula";
 
@@ -112,23 +112,23 @@
 
 
       if (lang == "ru") {
-        selecthotel = "Отели";
+        selecthotel = "ĞÑ‚ĞµĞ»Ğ¸";
 
-        rezlabel = "Бронирование";
+        rezlabel = "Ğ‘Ñ€Ğ¾Ğ½Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ¸Ğµ";
 
-        checkin = "Регистрироваться";
+        checkin = "Ğ ĞµĞ³Ğ¸ÑÑ‚Ñ€Ğ¸Ñ€Ğ¾Ğ²Ğ°Ñ‚ÑŒÑÑ";
 
-        checkout = "Проверить";
+        checkout = "ĞŸÑ€Ğ¾Ğ²ĞµÑ€Ğ¸Ñ‚ÑŒ";
 
-        adult = "Взрослый";
+        adult = "Ğ’Ğ·Ñ€Ğ¾ÑĞ»Ñ‹Ğ¹";
 
-        child = "Ребенок";
+        child = "Ğ ĞµĞ±ĞµĞ½Ğ¾Ğº";
 
-        age = "Возраст";
+        age = "Ğ’Ğ¾Ğ·Ñ€Ğ°ÑÑ‚";
 
-        childok = "Применять";
+        childok = "ĞŸÑ€Ğ¸Ğ¼ĞµĞ½ÑÑ‚ÑŒ";
 
-        night = "ночь";
+        night = "Ğ½Ğ¾Ñ‡ÑŒ";
 
       }
 
@@ -154,15 +154,15 @@
       }
 
       if (lang == "az") {
-        selecthotel = "Otellər";
+        selecthotel = "OtellÉ™r";
         rezlabel = "Rezervasyon";
-        checkin = "Giriş tarixi";
-        checkout = "Gediş tarixi";
+        checkin = "GiriÅŸ tarixi";
+        checkout = "GediÅŸ tarixi";
         adult = "Yetkin";
-        child = "Uşaq";
-        age = "Yaş";
-        childok = "Müraciət edin";
-        night = "gecə";
+        child = "UÅŸaq";
+        age = "YaÅŸ";
+        childok = "MÃ¼raciÉ™t edin";
+        night = "gecÉ™";
       }
 
 
@@ -174,7 +174,7 @@
         type: "text/css",
 
         href:
-          "https://www.rezervasyonal.com/widget/widgetbar/assets/widget.css",
+          "https://pachamama.hafsa.de/widget.css",
 
       });
 
@@ -301,7 +301,7 @@
             0,
 
             10
-          )}' format="DD-MM-YYYY" name="Checkin" placeholder="GiriÅŸ Tarihi" id="checkin" style="cursor: pointer;">
+          )}' format="DD-MM-YYYY" name="Checkin" placeholder="GiriÃ…Å¸ Tarihi" id="checkin" style="cursor: pointer;">
 
      </div>
 
@@ -317,7 +317,7 @@
             0,
 
             10
-          )}'  format="DD-MM-YYYY" name="Checkout" placeholder="GiriÅŸ Tarihi" id="checkout" style="cursor: pointer;">
+          )}'  format="DD-MM-YYYY" name="Checkout" placeholder="GiriÃ…Å¸ Tarihi" id="checkout" style="cursor: pointer;">
 
      </div>
 
