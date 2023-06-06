@@ -74,6 +74,19 @@ button#widgetSubmit {
     text-align: center;
     height: 43px;
 }
+.elektraweb-main .elektraweb-formGroup:nth-of-type(3) {position: relative;}
+.elektraweb-main .elektraweb-formGroup:nth-of-type(3)::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+  bottom: 18px;
+  right: 5px;
+  transform: translateY(-50%);
+}
 .elektraweb-formGroup #adult {width: 50px;text-align: center}
 @media screen and (max-width: 992px) {
     .elektraweb-main .elektraweb-formGroup:nth-last-of-type(1) {width: 100%;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;padding-top: 20px;}
