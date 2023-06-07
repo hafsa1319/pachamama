@@ -17,7 +17,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    gap: 10px;
+    
 }
 .elektraweb-formGroup input, .elektraweb-formGroup select {
     cursor: pointer;
@@ -44,7 +44,7 @@ appearance: none;
     -webkit-appearance: none;
 }
 button#widgetSubmit {
-    color: #44281c;
+   color: #44281c;
     letter-spacing: 4px;
     background-color: #f3eee7;
     border: 1px solid rgba(131, 90, 73, .37);
@@ -55,14 +55,12 @@ button#widgetSubmit {
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 5px;
-    height :43px;
+    padding: 9px 15px;
+    text-transform: uppercase;
+}
+button#widgetSubmit {
+    background-color: black;
+    color: white;
 }
 .elektraweb-formGroup .pluscss {
     color: #44281c;
@@ -92,6 +90,8 @@ button#widgetSubmit {
   transform: translateY(-50%);
 }
 .elektraweb-formGroup #adult {width: 50px;text-align: center}
+.elektraweb-main .elektraweb-formGroup:not(:nth-of-type(5)) {width: 16.6667%}
+.elektraweb-main .elektraweb-formGroup:nth-of-type(5) {width: 33.3333%}
 @media screen and (max-width: 992px) {
     .elektraweb-main .elektraweb-formGroup:nth-last-of-type(1) {width: 100%;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;padding-top: 20px;}
 }
