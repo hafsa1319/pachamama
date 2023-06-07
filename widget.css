@@ -5,22 +5,12 @@
 * Browsers: last 4 version
 */
 
+.html-embed-7 {width: 100% !important}
 .elektraweb-main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    
+   width: 100%;
 }
 .elektraweb-formGroup {
-float: left;
+    float: left;
     width: 100%;
     min-height: 1px;
     padding-left: 10px;
@@ -43,9 +33,9 @@ float: left;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-    
     -webkit-box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
-            box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+    box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
+    width: 100%;
 }
 .elektraweb-formGroup select {
 appearance: none;
@@ -53,22 +43,23 @@ appearance: none;
 }
 button#widgetSubmit {
    color: #44281c;
-    letter-spacing: 4px;
-    background-color: #f3eee7;
-    border: 1px solid rgba(131, 90, 73, .37);
-    margin-left: 0;
-    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
-    font-size: 12px;
-    font-weight: 400;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-    padding: 9px 15px;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+   letter-spacing: 4px;
+   background-color: #f3eee7;
+   border: 1px solid rgba(131, 90, 73, .37);
+   margin-left: 0;
+   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+   font-size: 12px;
+   font-weight: 400;
+   -webkit-transition: all .3s;
+   -o-transition: all .3s;
+   transition: all .3s;
+   padding: 9px 15px;
+   text-transform: uppercase;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+   width: 100%;
 }
 button#widgetSubmit:hover {
     background-color: black;
@@ -100,17 +91,15 @@ button#widgetSubmit svg {width: 21px; }
   border-right: 5px solid transparent;
   border-top: 5px solid #000;
   bottom: 18px;
-  right: 5px;
+  right: 20px;
   transform: translateY(-50%);
 }
-.elektraweb-formGroup #adult {width: 50px;text-align: center}
-.elektraweb-main .elektraweb-formGroup:not(:nth-of-type(5)) {width: 16.6667%}
-.elektraweb-main .elektraweb-formGroup:nth-of-type(5) {width: 33.3333%}
-@media screen and (max-width: 992px) {
-    .elektraweb-main .elektraweb-formGroup:nth-last-of-type(1) {width: 100%;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;padding-top: 20px;}
-}
-@media screen and (max-width: 576px) {
-    .elektraweb-main {gap: 0}
-    .elektraweb-formGroup {width: 50%;}
-    .elektraweb-formGroup {margin-bottom: 10px}
+.elektraweb-formGroup #adult {width: calc(100% - 48px);text-align: center}
+.elektraweb-main .elektraweb-formGroup:not(:nth-of-type(6)) {width: 16.6667%}
+.elektraweb-main .elektraweb-formGroup:nth-of-type(6) {width: 33.3333%;margin-top: 28px;}
+.elektraweb-main .elektraweb-formGroup:nth-of-type(3) select {width: 100% !important}
+
+@media screen and (max-width: 767px) {
+  .elektraweb-main {margin-top: 50px;}
+   .elektraweb-main .elektraweb-formGroup {width: 90% !important;margin-left: 5%;margin-bottom: 10px;}
 }
