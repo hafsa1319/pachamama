@@ -19,6 +19,14 @@
             justify-content: space-between;
     
 }
+.elektraweb-formGroup {
+float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
 .elektraweb-formGroup input, .elektraweb-formGroup select {
     cursor: pointer;
     height: auto;
