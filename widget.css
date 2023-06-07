@@ -65,11 +65,17 @@ button#widgetSubmit {
     transition: all .3s;
     padding: 9px 15px;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
-button#widgetSubmit {
+button#widgetSubmit:hover {
     background-color: black;
     color: white;
 }
+button#widgetSubmit svg {width: 21px; }
+
 .elektraweb-formGroup .pluscss {
     color: #44281c;
     background-color: #f3eee7;
