@@ -1,87 +1,88 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
+.html-embed-7 {
+  width: 100% !important;
+}
 
-.html-embed-7 {width: 100% !important}
 .elektraweb-main {
-   width: 100%;
+  width: 100%;
 }
+
 .elektraweb-formGroup {
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
 }
-.elektraweb-formGroup input, .elektraweb-formGroup select {
-    cursor: pointer;
-    height: auto;
-    min-height: 2.75rem;
-    color: #101828;
-    background-color: #fff;
-    border: 1px solid #d0d5dd;
-    border-radius: 0;
-    margin-bottom: 0;
-    padding: 0.5rem 0.875rem;
-    font-family: Montserrat, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-    -webkit-box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
-    box-shadow: 0 1px 2px rgba(16, 24, 40, .05);
-    width: 100%;
-}
+
+.elektraweb-formGroup input,
 .elektraweb-formGroup select {
-appearance: none;
-    -webkit-appearance: none;
+  cursor: pointer;
+  height: auto;
+  min-height: 2.75rem;
+  color: #101828;
+  background-color: #fff;
+  border: 1px solid #d0d5dd;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 0.5rem 0.875rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  transition: all 0.3s;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  width: 100%;
 }
+
+.elektraweb-formGroup select {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
 button#widgetSubmit {
-   color: #44281c;
-   letter-spacing: 4px;
-   background-color: #f3eee7;
-   border: 1px solid rgba(131, 90, 73, .37);
-   margin-left: 0;
-   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
-   font-size: 12px;
-   font-weight: 400;
-   -webkit-transition: all .3s;
-   -o-transition: all .3s;
-   transition: all .3s;
-   padding: 9px 15px;
-   text-transform: uppercase;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 5px;
-   width: 100%;
+  color: #44281c;
+  letter-spacing: 4px;
+  background-color: #f3eee7;
+  border: 1px solid rgba(131, 90, 73, 0.37);
+  margin-left: 0;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-size: 12px;
+  font-weight: 400;
+  transition: all 0.3s;
+  padding: 9px 15px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
 }
+
 button#widgetSubmit:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
-button#widgetSubmit svg {width: 21px; }
+
+button#widgetSubmit svg {
+  width: 21px;
+}
 
 .elektraweb-formGroup .pluscss {
-    color: #44281c;
-    background-color: #f3eee7;
-    border: 1px solid rgba(131, 90, 73, .37);
-    margin-left: 0;
-    font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
-    font-size: 12px;
-    font-weight: 400;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-    text-align: center;
-    height: 43px;
+  color: #44281c;
+  background-color: #f3eee7;
+  border: 1px solid rgba(131, 90, 73, 0.37);
+  margin-left: 0;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-size: 12px;
+  font-weight: 400;
+  transition: all 0.3s;
+  text-align: center;
 }
-.elektraweb-main .elektraweb-formGroup:nth-of-type(3) {position: relative;}
+
+.elektraweb-main .elektraweb-formGroup:nth-of-type(3) {
+  position: relative;
+}
+
 .elektraweb-main .elektraweb-formGroup:nth-of-type(3)::after {
   content: "";
   position: absolute;
@@ -94,12 +95,31 @@ button#widgetSubmit svg {width: 21px; }
   right: 20px;
   transform: translateY(-50%);
 }
-.elektraweb-formGroup #adult {width: calc(100% - 48px);text-align: center}
-.elektraweb-main .elektraweb-formGroup:not(:nth-of-type(6)) {width: 16.6667%}
-.elektraweb-main .elektraweb-formGroup:nth-of-type(6) {width: 33.3333%;margin-top: 28px;}
-.elektraweb-main .elektraweb-formGroup:nth-of-type(3) select {width: 100% !important}
+
+.elektraweb-formGroup #adult {
+  width: calc(100% - 48px);
+  text-align: center;
+}
+
+.elektraweb-main .elektraweb-formGroup:not(:nth-of-type(6)) {width: 16.6667%;}
+
+.elektraweb-main .elektraweb-formGroup:nth-of-type(6) {
+width: 33.3333%;
+margin-top: 0; /* Önceki hatalı stil ayarını kaldır */
+}
+
+.elektraweb-main .elektraweb-formGroup:nth-of-type(3) select {
+width: 100% !important;
+}
 
 @media screen and (max-width: 767px) {
-  .elektraweb-main {margin-top: 50px;}
-   .elektraweb-main .elektraweb-formGroup {width: 90% !important;margin-left: 5%;margin-bottom: 10px;}
+.elektraweb-main {
+margin-top: 50px;
+}
+
+.elektraweb-main .elektraweb-formGroup {
+width: 90% !important;
+margin-left: 5%;
+margin-bottom: 10px;
+}
 }
