@@ -51,7 +51,7 @@ button#widgetSubmit {
   font-size: 12px;
   font-weight: 400;
   transition: all 0.3s;
-  padding: 9px 15px;
+  padding: 11px 15px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -100,19 +100,20 @@ button#widgetSubmit svg {
 .elektraweb-main .elektraweb-formGroup:nth-of-type(4) {
   position: relative;
   display: grid;
+  align-items: flex-end;
   grid-template-columns: 20px 1fr 20px;
   gap: 2px;
 }
 
 .elektraweb-main .elektraweb-formGroup:nth-of-type(4) label {
   position: absolute;
-  bottom: 100px;
-  left: 0;
+  top: 0;
+  left: 10px;
 }
 .elektraweb-main .elektraweb-formGroup:nth-of-type(4) > * {height: 44px;}
 
+.elektraweb-main .elektraweb-formGroup:last-child {display: flex;align-items: flex-end;}
 .elektraweb-formGroup #adult {
-  width: calc(100% - 48px);
   text-align: center;
 }
 
@@ -124,10 +125,11 @@ button#widgetSubmit svg {
   }
 
   .elektraweb-main {
-
     grid-template-columns: 1fr;
     gap: 20px;
   
   }
+
+  .elektraweb-main .elektraweb-formGroup:nth-of-type(4) {padding-top: 25px;}
   
 }
