@@ -4,11 +4,13 @@
 
 .elektraweb-main {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .elektraweb-formGroup {
-  float: left;
-  width: 100%;
+  box-sizing: border-box;
+  flex: 1;
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px;
@@ -101,25 +103,10 @@ button#widgetSubmit svg {
   text-align: center;
 }
 
-.elektraweb-main .elektraweb-formGroup:not(:nth-of-type(6)) {width: 16.6667%;}
-
-.elektraweb-main .elektraweb-formGroup:nth-of-type(6) {
-width: 33.3333%;
-margin-top: 0; /* Önceki hatalı stil ayarını kaldır */
-}
-
-.elektraweb-main .elektraweb-formGroup:nth-of-type(3) select {
-width: 100% !important;
-}
-
 @media screen and (max-width: 767px) {
-.elektraweb-main {
-margin-top: 50px;
-}
-
-.elektraweb-main .elektraweb-formGroup {
-width: 90% !important;
-margin-left: 5%;
-margin-bottom: 10px;
-}
+  .elektraweb-main .elektraweb-formGroup {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+  }
 }
