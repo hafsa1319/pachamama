@@ -107,9 +107,9 @@ button#widgetSubmit svg {
 .elektraweb-main .elektraweb-formGroup:nth-of-type(4) label {
   position: absolute;
   bottom: 100px;
-  margin-top: -5px;
   left: 0;
 }
+.elektraweb-main .elektraweb-formGroup:nth-of-type(4) > * {height: 44px;}
 
 .elektraweb-formGroup #adult {
   width: calc(100% - 48px);
@@ -122,4 +122,12 @@ button#widgetSubmit svg {
     margin-left: 5%;
     margin-bottom: 10px;
   }
+
+  .elektraweb-main {
+
+    grid-template-columns: 1fr;
+    gap: 20px;
+  
+  }
+  
 }
